@@ -1,0 +1,77 @@
+img{
+width: 350px;
+  height: 150px;
+  position:relative;
+  left:500px;
+  top: 170px;
+}
+div{
+  position: absolute;
+  left:400px;
+  top: 320px;
+
+}
+.button1{
+  position:absolute;
+  background-color:#DAE2DD;
+  top:40px;
+  left:80px;
+  font-size: 16px;
+  width:135px;
+  border:none;
+  height: 40px;
+}
+.button2{
+  position:relative;
+  background-color: #DAE2DD;
+  top:40px;
+  left:265px;
+  font-size: 16px;
+  width:175px;
+  height: 40px;
+  border:none;
+}
+.button1:hover{
+  background-color: white;
+  border:1px solid black;
+font-weight: bold;
+}
+.button2:hover{
+  background-color: white;
+  border:1px solid black;
+font-weight: bold;
+}
+#langs{
+  position:relative;
+  top: 270px;
+  left:400px;
+}
+#x  {
+  text-decoration: underline;
+  color: blue;
+  }
+  #navbar {
+    	/*Add your CSS here!*/
+    	position: fixed;
+    	margin-top: -10px;
+    	left:50%;
+    	margin-left:-254px;
+    }
+    ul{
+    	list-style-type: none;
+    	position: fixed;
+    	margin: -10px;
+    }
+#right{
+  bottom:40px;
+  left:-20px;
+}
+#left{
+  bottom:40px;
+  right:20px;
+}
+li{
+  border:none;
+  padding:5px;
+  display:inline;
+}
